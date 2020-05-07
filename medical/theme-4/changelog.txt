@@ -1,0 +1,9 @@
+Version 1.2
+	Slider for IE is fixed
+	Scroll for Safari is fixed
+
+Version 1.1
+	Documentation updated
+
+Version 1.0
+	Dentario HTML - release
