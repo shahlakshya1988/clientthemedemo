@@ -1,0 +1,65 @@
+/* -- Services css
+-------------------------------- -- */
+
+.onepage-services {
+    padding: 0 14.0625%;
+    .floating-service-wrapper {
+        transform: translateY(-95px);
+        background: #fff;
+        box-shadow: 0 5px 50px rgba(156, 185, 226, 0.2);
+        border-radius: 5px;
+    }
+}
+
+.facilities {
+    padding: 1.5rem 3rem 6rem;
+    >div {
+        font-family: $secondary-font;
+        line-height: 2.8rem;
+        color: #888fb8;
+        font-weight: 700;
+        padding-left: 3.5rem;
+        margin-bottom: 1.1rem;
+        position: relative;
+        img {
+            position: absolute;
+            top: 7px;
+            left: 0;
+            max-height: 15px;
+        }
+    }
+}
+
+.service-block {
+    margin-top: 1.5rem;
+    padding: 0 15px;
+    position: relative;
+    > img {
+        margin: 0 1rem 3.6rem;
+    }
+    h4 {
+        margin-bottom: 1.8rem;
+    }
+    .service-overlay {
+        position: absolute;
+        top: -15px;
+        right: 15px;
+        min-height: calc(100% + 15px);
+        left: 15px;
+        border: 2px solid $border-color;
+        background: #fff;
+        padding: 3rem 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .5s;
+        .facilities {
+            padding-bottom: 1.5rem;
+        }
+    }
+    &:hover {
+        .service-overlay {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

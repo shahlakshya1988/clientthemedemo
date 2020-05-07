@@ -1,0 +1,89 @@
+/* -- Header css
+---------------------------------- -- */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar {
+    border-bottom: 1px solid #ecf2f8;
+    padding: 0;
+    transition: all .5s;
+    &.scrolled {
+        background-color: rgba(255, 255, 255, .97);
+        padding: 0 3rem;
+        margin-top: 3rem;
+        border-radius: 5px;
+        box-shadow: 0 5px 30px rgba(156, 185, 226, .3);
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+    line-height: 8.6rem;
+}
+
+.navbar-nav {
+    li {
+        margin-left: 3rem;
+        a:not(.custom-btn) {
+            display: block;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            color: $typo-light;
+            padding: 3.3rem .5rem;
+            text-decoration: none;
+            position: relative;
+            transition: all .5s;
+            &::after {
+                content: " ";
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                display: block;
+                width: 0;
+                height: .2rem;
+                background-color: $color-palette-b;
+                transition: width .5s;
+            }
+            &:hover,
+            &.active {
+                &::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.navbar-toggler {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+}
+
+.custom-toggler-icon {
+    display: block;
+    width: 3rem;
+    height: .2rem;
+    background-color: $color-palette-b;
+    margin: .5rem 0;
+    transition: all .5s;
+}
+
+.navbar button.change .custom-toggler-icon:nth-of-type(1) {
+    transform: rotate(-45deg) translate(-7px, 5px);
+}
+
+.navbar button.change .custom-toggler-icon:nth-of-type(2)  {
+    opacity: 0;
+}
+
+.navbar button.change .custom-toggler-icon:nth-of-type(3)  {
+    transform: rotate(45deg) translate(-5px, -3px);
+}

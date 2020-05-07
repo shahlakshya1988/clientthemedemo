@@ -1,0 +1,95 @@
+/* -- Form css
+-------------------------------------- -- */
+
+::placeholder {
+    color: $typo-light !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $typo-light !important;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $typo-light !important;
+    opacity: 1;
+}
+
+input,
+textarea {
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 1.3rem 2rem;
+    color: $typo-light;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all .5s;
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+}
+
+textarea {
+    min-height: 10rem;
+}
+
+.quote-form-wrapper {
+    width: 100%;
+    max-width: 48rem;
+    .quote-form {
+        margin: 0 -1rem;
+        [class*="col-"] {
+            padding: 0 1rem;
+            input,
+            textarea {
+                margin: 1rem 0;
+            }
+        }
+        .social-icons-wrapper {
+            padding-top: 9px;
+        }
+    }
+}
+
+.full-width-modal.quote-modal .modal-content {
+    padding-top: 117.5px;
+    padding-bottom: 115.5px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    .close {
+        color: #fff;
+        &:hover {
+            color: #fff;
+            opacity: 1;
+        }
+    }
+}
+
+.err-msg,
+.success-msg {
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #c72929;
+    font-weight: 700;
+    text-align: left;
+    margin-top: -4px;
+}
+
+.success-msg {
+    margin-top: -13px;
+    color: #00ff3a;
+    margin-bottom: 7px;
+}
+
+textarea+.err-msg {
+    margin-top: -14px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,79 @@
+//typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--secondary-font);
+	color: var(--typo-dark);
+	font-weight: var(--w-bold);
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 4.4rem;
+
+	@include tablet-mini {
+		font-size: 3.2rem;
+	}
+}
+
+h2 {
+	font-size: 3.6rem;
+
+	@include tablet-mini {
+		font-size: 3rem;
+	}
+}
+
+h3 {
+	font-size: 2.2rem;
+}
+
+h4 {
+	font-size: 2.4rem;
+	font-weight: var(--w-bold);
+
+	&.sml {
+		font-size: 2.2rem;
+	}
+}
+
+h5 {
+	font-size: 1.8rem;
+	font-weight: var(--w-bold);
+}
+
+h6 {
+	font-size: 1.6rem;
+	font-weight: var(--w-semi-bold);
+}
+
+p {
+	color: var(--typo-body);
+
+	@include tablet-mini {
+		font-size: 16px;
+	}
+}
+
+.w-light {
+	font-weight: var(--w-light);
+}
+
+.w-regular {
+	font-weight: var(--w-regular);
+}
+
+.w-semi-bold {
+	font-weight: var(--w-semi-bold);
+}
+
+.w-bold {
+	font-weight: var(--w-bold);
+}
+
+.w-ex-bold {
+	font-weight: var(--w-extra-bold);
+}

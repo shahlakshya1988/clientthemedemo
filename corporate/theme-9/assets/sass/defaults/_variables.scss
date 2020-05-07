@@ -1,0 +1,46 @@
+// Custom Variables
+
+:root {
+
+    //Fonts
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+
+    //Colors
+    --primary-color: #50D8D1;
+    --secondary-color: #FFC876;
+    --action-color: #FE5979;
+
+    --typo-dark: #111111;
+    --typo-body: #444444;
+    --typo-mid: #8A94A6;
+    --typo-light: #A6AEBC;
+
+    --bg-light: #F8F9FB;
+
+    --color-success: #00865A;
+    --color-alert: #F07300;
+    --color-info: #0D55CF;
+    --color-error: #DD2727;
+
+    //Border-radius
+    --radius: 4px;
+    --radius-big: 6px;
+    --radius-small: 2px;
+
+    //Font weight
+    --w-light: 300;
+    --w-regular: 400;
+    --w-medium: 500;
+    --w-semi-bold: 600;
+    --w-bold: 700;
+    --w-extra-bold: 800;
+    --w-black: 900;
+}
+
+//Media queries
+$tablet-mini: 768px;
+$tablet-pro: 992px;
+$laptop: 1200px;
+$desktop: 1600px;
+$large-desktop: 1920px;

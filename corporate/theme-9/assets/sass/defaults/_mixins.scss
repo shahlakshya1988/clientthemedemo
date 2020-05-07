@@ -1,0 +1,57 @@
+// Mixins
+
+//Media queries
+
+@mixin mobile {
+	@media (max-width: #{$tablet-mini - 1px}) {
+		@content;
+	}
+}
+
+@mixin tablet-mini {
+	@media (max-width: #{$tablet-pro - 1px}) {
+		@content;
+	}
+}
+
+@mixin tablet-pro {
+	@media (max-width : #{$laptop - 1px}) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media (max-width : #{$desktop - 1px}) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: #{$desktop}) {
+		@content;
+	}
+}
+
+@mixin large-desktop {
+	@media (min-width: #{$large-desktop + 1px}) {
+		@content;
+	}
+}
+
+@mixin only-chrome {
+	@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
+		@content;
+	}
+}
+
+@mixin only-moz {
+	@media all and (min--moz-device-pixel-ratio: 0) and (min-resolution: 3e1dpcm) {
+		@content;
+	}
+}
+
+@mixin only-ie {
+	@media screen and (min-width: 0\0) {
+		@content;
+	}
+}

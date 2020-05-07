@@ -1,0 +1,20 @@
+/* -- Banner css
+---------------------------------- -- */
+
+.banner{
+    height: 635px;
+    padding-top: 8.8rem;
+    background-image: url(../images/banner/inner-section-bg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    p{
+        margin-bottom: 3.1rem;
+    }
+    .custom-btn{
+        margin-bottom: 2rem;
+    }
+    img{
+        padding-left: 8rem;
+    }
+}
