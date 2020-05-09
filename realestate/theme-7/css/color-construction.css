@@ -1,0 +1,21 @@
+.banner-sec .list-language li a:hover, .choose-sec .choose-list .icon, .banner-sec .caption .title, .post-sec .caption-link:hover, .post-list li a:hover, .social-icon li a:hover, .content-sec .tag-list li a:hover, .post-sec .heading3 a:hover, .portfolio-sec .portfolio-slider .heading3 a:hover, .contact-sec .address-list .f-address a:hover, .comments-sec .comment-area .heading1:hover a, .comments-sec .comment-area .reply:hover, .intro-sec .txt-list a:hover, .footer-sec .f-nav li a:hover , .footer-sec .contact-list li a:hover, .banner-sec .breadcrumb a:hover, .about-sec .email-zuka .heading2:hover, .team-block .team-col .heading1 a:hover, .filter-list a:hover{	
+	color: #ecc719;
+}
+.btn-primary:active, .btn-primary:hover, .btn-primary:focus { background-color: #998214; }
+.btn-primary.bg-white:active, .btn-primary.bg-white:hover, .btn-primary.bg-white:focus { background-color: transparent;  }
+.btn-primary,
+.promo-box,
+.blog-col .blog-detail,
+.pricing-sec .price-holder:hover .pricing,
+.pricing-sec .price-holder .active,
+.team-block .overlay:after,
+#back-top.active,
+.service-col:hover .sc1,
+#nav .sub-menu li a:hover,
+.project-sec .col .over{background-color: #ecc719;}
+.service-col:hover .sc1{ border: 1px solid #ecc719;}
+.btn-primary,
+.btn-primary:active, .btn-primary:hover, .btn-primary:focus,
+.btn-primary.bg-white:active, .btn-primary.bg-white:hover, .btn-primary.bg-white:focus {
+	border: 2px solid #ecc719;
+}

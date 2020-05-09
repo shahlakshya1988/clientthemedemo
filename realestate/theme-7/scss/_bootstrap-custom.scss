@@ -1,0 +1,89 @@
+// custom variables and override bootstrap variables
+
+//== Colors
+$black:											#000;
+$white:											#fff;
+$clr-1:											#282b3a;
+$clr-2:											#47425d;
+$clr-3:											#f0437e;
+$clr-4:											#f1f5fa;
+$clr-5:											#1f2659;
+$clr-6:											#4d506d;
+$clr-7:											#a7abc6;
+$clr-8:											#ebebeb;
+$clr-9:											#111741;
+$clr-10:										#0b1033;
+$clr-11:										#292f54;
+$clr-12:										#e3e3e7;
+$clr-13:										#f5bc0d;
+$clr-14:										#f3f3f3;
+$clr-15:										#ececee;
+$clr-16:										#afadb8;
+$clr-17:										#4c65a8;
+$clr-18:										#41a1f6;
+$clr-19:										#f43535;
+$clr-20:										#8f6247;
+$clr-21:										#d2d2d4;
+$clr-22:										#e5e5e5;
+$clr-23:										#1e1e27;
+$clr-24:										#282828;
+$clr-25:										#6f6f6f;
+$clr-26:										#c0c0c0;
+$clr-27:										#000233;
+$clr-28:										#f7f7f7;
+$clr-29:										#e1e1e1;
+$clr-30:										#b6b6b6;
+$clr-31:										#c2c2c2;
+$clr-32:										#1996cd;
+$clr-33:										#272727;
+$clr-34:										#1a1a23;
+$clr-35:										#636363;
+$clr-36:										#c2c2c2;
+$clr-37:										#d7d7d7;
+$clr-38:										#ebebeb;
+$clr-39:										#e8e8e8;
+$clr-40:										#f7f7f7;
+$clr-41:										#21202a;
+$clr-42:										#e5e5e5;
+$clr-43:										#e1e1e1;
+$clr-44:										#292f3b;
+$clr-45:										#59606a;
+$clr-46:										#d2d2d4;
+$clr-47:										#242d2e;       
+$clr-48:										#e9e9e9;
+$clr-49:										#252525;
+$clr-50:										#ebebeb;
+$clr-51:										#1e1e27;
+$clr-52:										#c6c6c6;
+$clr-53:										#e5e5e5;
+$clr-54:										#636336;
+$clr-55:										#b2b2b2;
+$clr-56:										#acacac;
+$clr-57:										#e7e7e7;
+$clr-58:										#b7b7b7;
+$clr-59:										#f7f7f7;
+$clr-60:										#ecc719;
+$clr-61:										#c2c2c2;
+$clr-62:										#1a1a23;
+$clr-63:										#636363;
+
+
+
+
+
+//== Container sizes
+$container-lg:									1200px;
+
+//== Scaffolding
+$text-color:									$clr-2;
+$link-color:									$black;
+
+//== Typography
+$font-family-sans-serif:						'Poppins', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font-family-sans:						'Poppins', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base:								16px;
+$line-height-base:								1.625;
+$headings-font-family:							$heading-font-family-sans;
+$headings-font-weight:							700;
+$headings-color:								$clr-1;
+

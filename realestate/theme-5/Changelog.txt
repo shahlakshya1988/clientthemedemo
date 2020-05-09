@@ -1,0 +1,8 @@
+Version 1.2
+	Fixed scripts error on ios 
+
+Version 1.1
+	Mobile menu fixed
+
+Version 1.0
+	Release
