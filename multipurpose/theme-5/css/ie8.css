@@ -1,0 +1,19 @@
+#clients li img  {
+	display:block;
+}
+
+.zoom-posts {
+	background:#fff url(../images/zoom-posts.png) no-repeat center center;
+}
+
+.zoom-posts1 {
+	background:#fff url(../images/zoom.png) no-repeat center center;
+}
+
+.zoom-post {
+	background:#fff url(../images/zoom-post.png) no-repeat center center;
+}
+
+.zoom {
+	background:#fff url(../images/zoom.png) no-repeat center center;
+}

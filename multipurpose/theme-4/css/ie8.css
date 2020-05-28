@@ -1,0 +1,49 @@
+#search-bar input[type="text"] {
+	width: 176px;
+	background: url('../images/search-icon.png') 160px center no-repeat;
+}
+
+.nav-collapse .nav li a {
+	background: none !important;
+	padding: 25px 15px 26px;
+}
+
+header.style2 .nav-collapse .nav > li > a {
+	padding: 53px 18px 50px 0;
+}
+
+#slider.slider2 a {
+	padding: 20px 30px;
+}
+
+.testimonial-post {
+	width: 408px;
+}
+
+#subscribe input[type="text"] {
+	width: 177px;
+}
+
+a.xlarge {
+	padding: 12px 68px;
+}
+
+.down-buttons a.xlarge {
+	padding: 20px 68px;
+}
+
+.blog-icons li span {
+	width: 64px;
+}
+
+.blog-icons li {
+	margin-left: 10px;
+}
+
+.multiple-buttons {
+	display: none;
+}
+
+.share-box a.fb {
+	margin-left: 30px;
+}

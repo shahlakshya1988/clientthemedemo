@@ -1,0 +1,98 @@
+.akordeon {
+	width: 100%;
+	font-size: 12px;
+}
+
+.akordeon-item {
+	position: relative;
+	margin-bottom:7px;
+}
+
+.akordeon-item .akordeon-item-head {
+	height: 37px;
+	padding-top: 12px;
+border-bottom:1px solid #f2f2f2;
+}
+
+.akordeon p {
+	color:#a9a9a9;
+	margin-bottom:10px !important;
+	line-height:20px;
+}
+
+.akordeon-item .akordeon-item-body {
+	border-bottom: none;
+	overflow: hidden;
+}
+
+.akordeon-icon {
+	width: 25px;
+	height: 25px;
+	/* Old browsers */
+	padding: 0;
+	margin: 0 0px 0 15px;
+	float: left;
+	cursor: pointer;
+	position:relative;
+	top:-5px;
+}
+
+.akordeon-heading {
+	float: left;
+	padding-left: 15px;
+	padding-top: 8px;
+	font-weight: normal;
+	margin-top:-8px;
+	font-size:13px;
+	font-weight:700;
+	color:#4d4d4d;
+	font-family:open sans;
+}
+
+.akordeon-icon span {
+	color: #808080;
+	background:#ececec;
+	font-size: 18px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px !important;
+	line-height: 19px;
+	font-weight: bold;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	border-radius:2px;
+	border:1px solid #e5e5e5;
+}
+
+.akordeon-item.expanded .akordeon-icon span {
+	top: 0px;
+	color: #fff;
+	line-height: 18px;
+	background:#e66a47;
+	border:1px solid #e66a47;
+}
+
+.akordeon-item-head-container {
+	width: 100%;
+	position: absolute;
+	left: -8px;
+	cursor: pointer;
+}
+
+.akordeon-item.expanded .akordeon-item-body {
+	background:url(../images/accordion-shadow.png) no-repeat center bottom;
+}
+
+.akordeon-item.expanded .akordeon-heading {
+}
+
+.akordeon-item.expanded .akordeon-item-head {
+}
+
+.akordeon-item-content {
+	padding: 20px 0 5px 0;
+	min-height: 10px;
+	overflow:auto;
+}
