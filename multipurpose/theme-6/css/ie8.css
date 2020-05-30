@@ -1,0 +1,53 @@
+
+.main-header .back-logo {
+	width: 30%;
+}
+
+.services article {
+	width: 253px;
+}
+
+.services.main-page article {
+	width: 252px;
+}
+
+.columns-3 .project-post {
+	margin: 25px;
+	margin-top: 0;
+	width: 260px;
+}
+
+.columns-4 .project-post {
+	margin: 10px;
+	margin-top: 0;
+	width: 205px;
+}
+
+.client-list li {
+	width: 145px;
+}
+
+ul.tables-content-one li ul.column-pricing-data li {
+	background: #f8f8f8;
+}
+
+ul.tables-content-one li ul.column-pricing-data li a {
+	color: #d74040;
+}
+
+ul.tables-content-one li ul.column-pricing-data li h3 {
+	color: #d74040;
+}
+
+ul.tables-content-two li ul.column-pricing-data li {
+	background: #d74040;
+}
+
+ul.tables-content-two > li {
+	width: 290px;
+	margin-left: 1px;
+}
+
+ul.tables-content-one > li {
+	width: 217px;
+}
